@@ -1,0 +1,28 @@
+{
+  "name": "3 Patti Blue",
+  "short_name": "3Patti Blue",
+  "description": "Top earning app in Pakistan 2026. Play Teen Patti, Rummy, Slots, Poker, Jili Slots and Fishing Games. Download 3 Patti Blue APK and earn real money!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06091F",
+  "theme_color": "#06091F",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/card-rummy-logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/card-rummy.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+} 
