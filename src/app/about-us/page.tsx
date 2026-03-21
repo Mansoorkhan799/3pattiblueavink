@@ -129,8 +129,7 @@ export default function AboutPage() {
                 "name": "Pakistan"
               },
               "sameAs": [
-                "https://facebook.com/cardrummy",
-                "https://twitter.com/cardrummy"
+                "https://3pattiblue.pk"
               ],
               "founder": {
                 "@type": "Person",

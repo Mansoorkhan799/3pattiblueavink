@@ -129,43 +129,67 @@ export async function GET() {
   // Blog posts
   const blogPosts: PageType[] = [
     {
-      url: '/blog/is-card-rummy-real-or-fake',
+      url: '/blog/3-patti-blue-app-review',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    {
+      url: '/blog/install-3-patti-blue-android-guide',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/create-card-rummy-account-and-login',
+      url: '/blog/3-patti-blue-vs-3-patti-lucky-comparison',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/tips-to-win-big-in-card-rummy',
+      url: '/blog/top-5-real-money-gaming-apps-pakistan',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/ips-exceed-issue-card-rummy-how-to-fix',
+      url: '/blog/3-patti-blue-referral-code-earn-commission',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/card-rummy-old-version-features-review-2026',
+      url: '/blog/3-patti-blue-welcome-bonus-free-pkr',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/card-rummy-latest-version-new-features-2026-updates',
+      url: '/blog/all-games-on-3-patti-blue-complete-list',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/ways-to-earn-money-with-card-rummy-2026',
+      url: '/blog/dragon-vs-tiger-game-guide-rules-winning',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/forgot-3-patti-blue-password-account-recovery',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/is-3-patti-blue-safe-security-analysis',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/3-patti-blue-not-working-problems-solutions',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8

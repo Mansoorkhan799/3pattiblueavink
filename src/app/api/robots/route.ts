@@ -44,9 +44,18 @@ Allow: /withdraw-money-from-3-patti-blue
 Allow: /3-patti-blue-for-pc
 Allow: /about-us
 Allow: /blog
-Allow: /blog/is-card-rummy-real-or-fake
-Allow: /blog/create-card-rummy-account-and-login
-Allow: /blog/tips-to-win-big-in-card-rummy
+Allow: /3-patti-blue-login
+Allow: /blog/3-patti-blue-app-review
+Allow: /blog/install-3-patti-blue-android-guide
+Allow: /blog/3-patti-blue-vs-3-patti-lucky-comparison
+Allow: /blog/top-5-real-money-gaming-apps-pakistan
+Allow: /blog/3-patti-blue-referral-code-earn-commission
+Allow: /blog/3-patti-blue-welcome-bonus-free-pkr
+Allow: /blog/all-games-on-3-patti-blue-complete-list
+Allow: /blog/dragon-vs-tiger-game-guide-rules-winning
+Allow: /blog/forgot-3-patti-blue-password-account-recovery
+Allow: /blog/is-3-patti-blue-safe-security-analysis
+Allow: /blog/3-patti-blue-not-working-problems-solutions
 
 # Standard pages
 Allow: /contact-us

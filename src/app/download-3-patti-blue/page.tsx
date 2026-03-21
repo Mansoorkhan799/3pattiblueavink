@@ -77,9 +77,9 @@ export default function DownloadPage() {
     "datePublished": "2026-01-03",
     "description": "Download 3 Patti Blue APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa.",
     "screenshot": [
-      "https://3pattiblue.pk/card-rummy-screenshot1.webp",
-      "https://3pattiblue.pk/card-rummy-screenshot2.webp",
-      "https://3pattiblue.pk/card-rummy-screenshot3.webp"
+      "https://3pattiblue.pk/3-patti-blue-game.webp",
+      "https://3pattiblue.pk/3-patti-blue-bonuses.webp",
+      "https://3pattiblue.pk/3-patti-blue-refer-and-earn.webp"
     ],
     "image": "https://3pattiblue.pk/3-patti-blue-logo.webp",
     "author": {
