@@ -45,7 +45,11 @@ export default function BlogPostSchema({
     headline: title,
     description,
     url,
-    image,
+    image: {
+      "@type": "ImageObject",
+      url: image,
+      ...imageObjectLicensing,
+    },
     author: { "@type": "Organization", name: "3 Patti Blue", url: BASE },
     publisher: {
       "@type": "Organization",

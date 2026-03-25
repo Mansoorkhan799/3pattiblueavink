@@ -111,8 +111,16 @@ export default function Home() {
         "name": "3 Patti Blue",
         "operatingSystem": "Android 5.0+",
         "applicationCategory": "GameApplication",
-        "image": "https://3pattiblue.pk/3-patti-blue.webp",
-        "logo": "https://3pattiblue.pk/3-patti-blue.webp",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://3pattiblue.pk/3-patti-blue.webp",
+          ...imageObjectLicensing
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://3pattiblue.pk/3-patti-blue.webp",
+          ...imageObjectLicensing
+        },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.5",

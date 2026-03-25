@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
 
 export const metadata: Metadata = {
   title: 'Download 3 Patti Blue Game Free APK For Android | Latest Version 2026',
@@ -81,7 +82,11 @@ export default function DownloadPage() {
       "https://3pattiblue.pk/3-patti-blue-bonuses.webp",
       "https://3pattiblue.pk/3-patti-blue-refer-and-earn.webp"
     ],
-    "image": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+      ...imageObjectLicensing
+    },
     "author": {
       "@type": "Organization",
       "name": "3 Patti Blue",

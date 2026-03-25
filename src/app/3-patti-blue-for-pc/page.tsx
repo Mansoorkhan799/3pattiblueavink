@@ -45,7 +45,11 @@ export default function PattiBlueForPCPage() {
     "@type": "TechArticle",
     "headline": "3 Patti Blue for PC Download Latest Version Free 2026",
     "description": "Complete guide to download and play 3 Patti Blue on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+      ...imageObjectLicensing
+    },
     "author": {
       "@type": "Organization",
       "name": "3 Patti Blue",
