@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import DeferredStyles from "@/components/DeferredStyles";
 import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
 import WebVitalsTracker from "@/components/WebVitalsTracker";
+import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -205,7 +206,12 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "3 Patti Blue",
               "url": "https://3pattiblue.pk",
-              "logo": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+                ...imageObjectLicensing,
+                "creditText": "3 Patti Blue logo",
+              },
               "description": "3 Patti Blue is Pakistan's top earning app offering Teen Patti, Rummy, Slots, Poker, Jili Slots, and Fishing Games with real cash rewards.",
               "sameAs": [
                 "https://facebook.com/3pattiblue",
@@ -226,6 +232,11 @@ export default function RootLayout({
               "name": "3 Patti Blue",
               "operatingSystem": "Android 5.0+",
               "applicationCategory": "GameApplication",
+              "image": {
+                "@type": "ImageObject",
+                "url": "https://3pattiblue.pk/3-patti-blue.webp",
+                ...imageObjectLicensing,
+              },
               "offers": {
                 "@type": "Offer",
                 "price": "0",

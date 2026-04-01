@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
+import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
 
 export const metadata: Metadata = {
   title: 'About 3 Patti Blue - Pakistan\'s Premier Card Gaming Platform',
@@ -121,7 +122,12 @@ export default function AboutPage() {
               "name": "3 Patti Blue",
               "alternateName": "3 Patti 3 Patti Blue",
               "url": "https://3pattiblue.pk",
-              "logo": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://3pattiblue.pk/3-patti-blue-logo.webp",
+                ...imageObjectLicensing,
+                "creditText": "3 Patti Blue logo",
+              },
               "description": "3 Patti Blue is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
               "foundingDate": "2024",
               "foundingLocation": {
